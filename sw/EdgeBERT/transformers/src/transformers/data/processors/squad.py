@@ -708,3 +708,13 @@ class SquadResult(object):
             self.start_top_index = start_top_index
             self.end_top_index = end_top_index
             self.cls_logits = cls_logits
+            
+squad_processors = {
+    "squadv1": SquadV1Processor,
+    "squadv2": SquadV2Processor,
+}
+
+squad_output_modes = {
+    "squadv1": "classification",
+    "squadv2": "classification",
+}

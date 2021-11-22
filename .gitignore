@@ -1,0 +1,7 @@
+.idea
+sw/EdgeBERT/*.log
+sw/EdgeBERT/scripts/glue_data
+sw/EdgeBERT/scripts/plotting
+sw/EdgeBERT/scripts/runs
+sw/EdgeBERT/scripts/saved_models
+sw/EdgeBERT/scripts/*.log

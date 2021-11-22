@@ -17,6 +17,8 @@ from .processors import (
     glue_processors,
     glue_tasks_num_labels,
     squad_convert_examples_to_features,
+    squad_output_modes,                 #+
+    squad_processors,                   #+
     xnli_output_modes,
     xnli_processors,
     xnli_tasks_num_labels,
@@ -24,4 +26,4 @@ from .processors import (
 
 
 if is_sklearn_available():
-    from .metrics import glue_compute_metrics, xnli_compute_metrics
+    from .metrics import glue_compute_metrics, xnli_compute_metrics#, squad_compute_metrics

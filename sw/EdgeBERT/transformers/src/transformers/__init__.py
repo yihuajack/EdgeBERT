@@ -53,6 +53,8 @@ from .data import (
     glue_tasks_num_labels,
     is_sklearn_available,
     squad_convert_examples_to_features,
+    #squad_output_modes,                 #+
+    #squad_processors,                   #+
     xnli_output_modes,
     xnli_processors,
     xnli_tasks_num_labels,
